@@ -6,4 +6,5 @@ fi
 
 cp ark.Game.ini ${APP_ROOT}/ShooterGame/Saved/Config/LinuxServer/Game.ini
 
+arkmanager update
 arkmanager run
