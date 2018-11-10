@@ -41,6 +41,7 @@ WORKDIR ${HOME}
 # Add ARK server settings
 COPY arkmanager.server.cfg ${HOME}/.arkmanager.cfg
 COPY run.sh run.sh
+COPY ark.Game.ini ark.Game.ini
 
 # Change the ports according to the ones set in your arkmanager.cfg file.
 EXPOSE 27015/udp 7777/udp 7778/udp
