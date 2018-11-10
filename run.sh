@@ -7,5 +7,5 @@ fi
 cp ark.Game.ini ${APP_ROOT}/ShooterGame/Saved/Config/LinuxServer/Game.ini
 
 arkmanager update
-arkmanager installmods
+arkmanager checkmodupdate && arkmanager installmods
 arkmanager run
